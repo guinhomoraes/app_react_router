@@ -1,0 +1,44 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.Content
+{
+    width: 100vw;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Content h1
+{
+    margin: 30px 0px;
+}
+
+
+nav
+{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    border-bottom: solid 1px black;
+    padding: 0px 30px;
+}
+
+.navItems ul li
+{
+    display: inline;
+}
+
+.navItems ul li a 
+{ 
+    padding: 2px 10px; 
+    display: inline-block;
+    text-decoration: none; 
+    color: black;
+}
